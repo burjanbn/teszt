@@ -1,6 +1,6 @@
 #include<stdio.h>
 
 int main(){
-    // Ide jön a kód
+    // Ide jön a kód..valami
     return 0;
 }
