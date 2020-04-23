@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+// Konstans - nem tudod változtatni az értékét
+#define PI 3.14
 // Itt definiálod elöször amit szeretnél, milyen függvényed lesz
 int osszead(int a, int b);
 
@@ -25,6 +26,7 @@ int main()
     */
     // Ebbe a 'szam' nevü változoba mentem ki a függvény értékét
     //Megtehetem, hiszen tudom, hogy ez a függvény (osszead()) egy számot ad vissza
+    //**** VÁLTOZÓ DEKLARÁLÁS ****
     double haj = 0.0;//legnagyobb tizedes
     float ertek;//normal
     int szam = osszead(3, 4);// legkisebb
@@ -39,7 +41,6 @@ int main()
 
     szam = kivonas(10, 6);
     printf("%d\n", szam);
-
     szam = szorzas(10, 5);
     printf("%d\n", szam);
 
@@ -79,9 +80,9 @@ int szorzas(int a, int b)
 
 double terulet(int r)
 {
-    return r * r * 3.14;
+    return r * r * PI;
 }
 double kerulet(int r)
 {
-    return 2 * r * 3.14;
+    return 2 * r * PI;
 }
