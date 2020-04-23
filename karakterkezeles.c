@@ -43,7 +43,8 @@ int main()
         printf("%c", tolower(karakterek[i]));
     }
 
-
+    // **** hozz létre egy karakter tömböt: 10 elemüt --> irasd ki *****
+    
 
     return 0;
 }
