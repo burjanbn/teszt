@@ -48,9 +48,9 @@ int main()
     // ***** hozz létre egy karakter tömböt: 10 elemüt --> irasd ki *****
     
 
-    // ***** adott karakter ('a') keresése a tömbben: megtalálható vagy sem ******
+    // ***** adott karakter ('a') keresése a tömbben (if): megtalálható vagy sem ******
 
 
-    // ***** adott karakter darabszáma a tömbben *****
+    // ***** adott karakter ('a') darabszáma a tömbben *****
     return 0;
 }
