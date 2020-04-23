@@ -3,6 +3,13 @@
 // Itt definiálod elöször amit szeretnél, milyen függvényed lesz
 int osszead(int a, int b);
 
+// Ezek a függvények amiket meg kell irni alul
+int kivonas(int a , int b); 
+
+int szorzas(int a , int b); 
+
+int osztas(int a , int b);
+
 int main(){
     // Ide jön a kód..valami
     /* Mindig a kódba ird fölé mint én most amit változtattál
@@ -24,3 +31,8 @@ int osszead(int a , int b) {
 
     return a + b;
 }
+
+/* Az összeadás mintájára probáld megirni a szorzást, kivonást , osztást és kiiratni.
+A függvényeket felül találod hogy kell kinézzen. Te pedig itt lenn bontsd ki és ird meg, 
+majd hivd meg a main függvénybe őket és irasd ki.
+*/
