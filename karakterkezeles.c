@@ -43,8 +43,14 @@ int main()
         printf("%c", tolower(karakterek[i]));
     }
 
-    // **** hozz létre egy karakter tömböt: 10 elemüt --> irasd ki *****
+
+
+    // ***** hozz létre egy karakter tömböt: 10 elemüt --> irasd ki *****
     
 
+    // ***** adott karakter ('a') keresése a tömbben: megtalálható vagy sem ******
+
+
+    // ***** adott karakter darabszáma a tömbben *****
     return 0;
 }
