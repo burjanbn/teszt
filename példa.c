@@ -31,7 +31,6 @@ int main()
     float ertek;//normal
     int szam = osszead(3, 4);// legkisebb
     short sh = 234567;
-    int 
     printf("SHORT ERTEK %d\n-----------\n", sh); 
     printf("%d", szam);
     // És kiiratom a számot
