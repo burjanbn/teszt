@@ -11,6 +11,10 @@ int szorzas(int a, int b);
 
 int osztas(int a, int b);
 
+double terulet(int r);
+
+double kerulet(int r);
+
 int main()
 {
 
@@ -21,20 +25,29 @@ int main()
     */
     // Ebbe a 'szam' nevü változoba mentem ki a függvény értékét
     //Megtehetem, hiszen tudom, hogy ez a függvény (osszead()) egy számot ad vissza
-    int szam = osszead(3, 4);
-
+    double haj = 0.0;//legnagyobb tizedes
+    float ertek;//normal
+    int szam = osszead(3, 4);// legkisebb
+    short sh = 234567;
+    int 
+    printf("SHORT ERTEK %d\n-----------\n", sh); 
     printf("%d", szam);
     // És kiiratom a számot
 
- // harmadik lépés
+    // harmadik lépés
     printf("A megadott összeg: %d\n", szam);
 
     szam = kivonas(10, 6);
     printf("%d\n", szam);
 
-szam = szorzas(10,5);
-printf("%d\n",szam);
+    szam = szorzas(10, 5);
+    printf("%d\n", szam);
 
+    haj = kerulet(4);
+    printf("%.2f\n", haj);
+
+    haj = terulet(2);
+    printf("%.2f\n", haj);
 
     return 0;
 }
@@ -61,5 +74,14 @@ int kivonas(int a, int b)
 }
 int szorzas(int a, int b)
 {
-     return a * b;
+    return a * b;
+}
+
+double terulet(int r)
+{
+    return r * r * 3.14;
+}
+double kerulet(int r)
+{
+    return 2 * r * 3.14;
 }
